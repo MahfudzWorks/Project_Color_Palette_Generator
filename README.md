@@ -1,16 +1,42 @@
-# React + Vite
+# 🎨 Color Palette Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive **color palette generator** built with **React + Vite + Tailwind CSS**.  
+This app allows users to:
 
-Currently, two official plugins are available:
+- Generate **random harmonious color palettes**
+- Search colors by name (e.g., “red”, “blue”) or HEX code (e.g., `#ff0000`)
+- Instantly view **gradient variations**
+- Toggle between **Dark** 🌙 and **Light** ☀️ modes
+- Copy colors with one click 💡
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🎨 Generate random color palettes
+- 🌈 Search gradient colors (based on base color name or HEX)
+- 🌓 Dark / Light mode with smooth transition
+- 📋 Copy color to clipboard instantly
+- 💅 Built using **TailwindCSS** for modern UI
+- ⚡ Powered by **React + Vite** for fast performance
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- [React](https://react.dev/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Lucide Icons](https://lucide.dev/icons)
+
+---
+
+## 📦 Installation
+
+Clone the repository and install dependencies:
+
+```bash
+git clone https://github.com/vyyy404/color-palette-generator.git
+cd color-palette-generator
+npm install
+```
